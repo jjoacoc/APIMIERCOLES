@@ -1,0 +1,55 @@
+<mat-toolbar>
+
+  <mat-toolbar-row>
+
+    <img src="../../../../../assets/novedad_cipoletti_home.png" alt="">
+    <span class="example-spacer"></span>
+
+    <div class="icono-user">
+      <button mat-icon-button>
+        <mat-icon>person</mat-icon>
+      </button>
+    </div>
+
+  </mat-toolbar-row>
+
+  <mat-toolbar-row>
+    <span class="example-spacer"></span>
+    <div class="seguridad-container">
+      <div [mat-menu-trigger-for]="menuSeguridad" class="botones-navbar">
+        <button mat-button>
+          <mat-icon>lock_open</mat-icon>
+          Seguridad
+        </button>
+      </div>
+
+      <mat-menu #menuSeguridad="matMenu">
+        <button mat-menu-item routerLink="/usuario">Usuario</button>
+        <button mat-menu-item routerLink="/grupo">Grupo</button>
+      </mat-menu>
+    </div>
+
+    <div class="botones-navbar">
+      <button mat-button>
+        <mat-icon>logout</mat-icon>
+        Salir
+      </button>
+    </div>
+
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
+<!--
+<mat-toolbar color="primary">
+  <span>Sistema de Gestión de Empaque</span>
+  <span class="spacer"></span>
+  <button mat-button>Movimientos</button>
+  <button mat-button>Parámetros</button>
+  <button mat-button>Consultas</button>
+  <button mat-button>Paneles</button>
+  <button mat-button>Seguridad</button>
+  <button mat-button>Salir</button>
+</mat-toolbar>
+-->

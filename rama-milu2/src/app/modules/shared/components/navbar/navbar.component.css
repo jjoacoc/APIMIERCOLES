@@ -1,0 +1,31 @@
+
+  .mat-toolbar{
+    background-color:rgb(210, 255, 47) ;
+  }
+  img {
+    max-width: 150px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Mantener proporciones */
+    margin-right: 1100px; /* Espacio a la derecha de la imagen */
+  }
+
+  .botones-navbar {
+    cursor: pointer;
+    color: rgb(0, 0, 0); /* Cambiar color según tu diseño */
+    padding: 4px 8px; /* Espacio alrededor del texto */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Efecto al pasar el mouse */
+  }
+  .icono-user{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+  
+
+  
+
+  
+  
+  
